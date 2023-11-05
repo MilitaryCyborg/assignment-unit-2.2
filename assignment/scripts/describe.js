@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable is made for name to be Dane.
+// Then we are programing it to say Hi Mary, if the name is Mary with === (true, with exact match only).
+// After we are saying if it's other than Mary to say "How do you do?"
+// console.log result ('How do you do?')
 
 //CODE
 /*
@@ -45,10 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Here we are making a secret with let, followed by saying the code is 123.
+// Then we are saying if the code is true, with exact match only, secret will = super and the code will multiply by 2.
+// if the code is greater than 250, the secret will equal duper. followed by a console.log with the output of 'super'.
 
 //CODE
 /*
@@ -70,10 +69,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Starting off we assign isStudent = true; age = 34; zip = 55407.
+// If the isStudent is true && (both side must be true) and zip is > (greater than) 8000, console.log 'You're a student on the West Coast!'
+// Then we put else if, if the student === (true, with exact match only) false || (either side can be true)  age < 30, console.log would say 
+// After that the code says else if isStudent === true, console.log would say 'Welcome to Prime!'
+// If none of those else then console.log 'How about the weather?'
+// console.log output would be 'Welcome to Prime!'
 
 //CODE
 /*
@@ -129,6 +130,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// colorOne= 'blue';
+// colorTwo= 'red';
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +147,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// change || to &&
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +161,8 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//Change to: if(age < minAge)
 
 /*
 let age = 21;
