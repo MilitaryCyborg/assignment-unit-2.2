@@ -130,8 +130,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// colorOne= 'blue';
-// colorTwo= 'red';
+// My Fix:
+// let colorOne= 'blue';
+// let colorTwo= 'red';
 
 /*
 let colorOne = 'red';
@@ -147,6 +148,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// My Fix:
 // change || to &&
 
 /*
@@ -162,6 +164,7 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// My Fix:
 //Change to: if(age < minAge)
 
 /*
